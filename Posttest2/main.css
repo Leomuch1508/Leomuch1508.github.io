@@ -39,7 +39,7 @@ header {
 .text-section {
     margin-bottom: 5rem;
     margin-left: 7rem;
-    width: 40rem;
+    width: 45rem;
 }
 
 .title {
@@ -47,11 +47,6 @@ header {
     font-weight: 800;
     color: #F3F3F3;
     margin-bottom: -10px;
-}
-
-.text-section span {
-    color: #0f1c32;
-    font-weight: 1000;
 }
 
 .description {
