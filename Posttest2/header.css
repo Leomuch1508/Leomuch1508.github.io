@@ -24,20 +24,6 @@ nav {
     color: #F3F3F3;
 }
 
-nav input {
-    background-color: #F3F3F3;
-    width: 25rem;
-    height: 2rem;
-    padding: 0 1rem;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-left: 17rem;
-}
-
-nav input::placeholder {
-    text-align: center;
-}
-
 .toggleBox {
     font-size: 23px;
     text-align: center;
@@ -58,7 +44,7 @@ nav input::placeholder {
 }
 
 .nav-links li {
-    margin: 0 2.5rem;
+    margin: 0 3rem;
     position: relative;
 }
 
@@ -85,45 +71,6 @@ nav input::placeholder {
     color: #0f1c32;
 }
 
-.about {
-    list-style: none;
-    display: flex;
-    margin-left: 1rem;
-    position: relative;
-}
-
-.about p{
-    font-family: 'Silkscreen', cursive;
-    color: white;
-}
-
-.about li {
-    margin: 0 2.5rem;
-    position: relative;
-}
-
-.about li a {
-    font-weight: 700;
-    text-decoration: none;
-    color: #F3F3F3;
-}
-
-.about li button {
-    padding: 2px 15px;
-    color: #F3F3F3;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    background-color: #2D3147;
-    border: 2px solid #F3F3F3;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.about li button:hover,
-.about li button a:hover{
-    background-color: #F3F3F3;
-    color: #0f1c32;
-}
 
 @media (max-width: 1100px) {
     nav input {
