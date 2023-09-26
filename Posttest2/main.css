@@ -11,8 +11,6 @@
 body {
     background-color: #0000ff;
 }
-/* ------------------Header----------------- */
-
 
 header {
     width: 100%;
@@ -143,7 +141,7 @@ header {
 
 @media (max-width: 800px) {
     .text-section {
-        margin-top: 5rem;
+        margin-top: 7rem;
         margin-left: 2rem;
         width: 40rem;
     }
