@@ -1,3 +1,5 @@
+/* ------------------Nav----------------- */
+
 nav {
     width: 100%;
     display: flex;
@@ -76,11 +78,6 @@ nav {
     position: relative;
 }
 
-.about p{
-    font-family: 'Silkscreen', cursive;
-    color: white;
-}
-
 .about li {
     margin: 0 1rem;
     position: relative;
@@ -109,11 +106,7 @@ nav {
     color: #0f1c32;
 }
 
-
 @media (max-width: 1100px) {
-    nav input {
-        margin: 0 2rem;
-    }
     .nav-links {
         position: absolute;
         top: 50px;
