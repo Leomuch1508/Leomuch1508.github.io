@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Open+Sans:wght@400;500;600;700;800&family=Shrikhand&family=Silkscreen&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +9,7 @@
 
 body {
     background-color: #0000ff;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
 }
 /* ------------------Header----------------- */
 
@@ -33,7 +33,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .button:hover, 
@@ -46,27 +46,32 @@ button:focus{
 }
 
 .text-section {
-    margin-bottom: 6rem;
-    margin-left: 4rem;
+    margin-bottom: 5rem;
+    margin-left: 7rem;
     width: 40rem;
 }
 
 .title {
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
     color: #F3F3F3;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 
 .text-section span {
-    color: greenyellow;
+    color: rgb(20, 152, 228);
     font-weight: 800;
 }
 
 .description {
     font-size: 1rem;
+    /* width: 300px; */
     font-weight: 500;
-    color: #F3F3F3;
+    color: rgb(20, 152, 228);
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -77,6 +82,7 @@ button:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .right-section p {
@@ -97,7 +103,7 @@ button:focus{
     height: 27rem;
     background: rgba(255, 255, 255, 0.2);
     border: 4px solid black;
-    border-radius: 40px;
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,14 +112,44 @@ button:focus{
 }
 
 .showing-image {
-    width: 19rem;
-    height: 24rem;
-    background-image: url("images/Muchlas.jpeg");
+    width: 17rem;
+    height: 20rem;
+    background-image: url("images/Muchlas.png");
     background-size: cover;
     background-position: center;
     border: 3px solid black;
     border-radius: 30px;
     /* animation: change 30s infinite ease-in-out; */
+}
+
+table.description {
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+table.description th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+table.description td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border: none;
+}
+
+table.description td span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+table.description td:not(:first-child) {
+    font-weight: normal;
 }
 
 @media (max-width: 1100px) {
@@ -141,14 +177,8 @@ button:focus{
 
 @media (max-width: 800px) {
     .text-section {
-        margin-left: 2rem;
-        width: 20rem;
-    }
-    .text-section button {
-        font-size: 10px;
-    }
-    .right-section p {
-        font-size: 1.5rem;
+        margin-left: 1rem;
+        width: 40rem;
     }
     .showing {
         width: 15rem;
@@ -188,11 +218,6 @@ button:focus{
     }
     .text-section button {
         font-size: 13px;
-    }
-    .right-section p {
-        font-size: 2rem;
-        padding: 5px 18px;
-        margin-bottom: 1rem;
     }
     .showing {
         width: 15rem;
